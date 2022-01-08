@@ -13,7 +13,14 @@
     outline: none; border:none;
     text-decoration: none !important;
     font-family: "Nunito", sans-serif;
-  
+    
+   
+   
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 html{
@@ -21,7 +28,7 @@ html{
 }
 
 section{
-    padding:20px 0;
+    padding:20px 0 !important;
 }
 
 
@@ -99,12 +106,15 @@ header .nav a:hover{
 
 
 .home{
-    min-height: 50vh;
-    background-position: center;
-    background-size: cover;
+    
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
     
     
 }
+
 
 .home .content span{
     color:var(--main-color);
@@ -180,7 +190,7 @@ header .nav a:hover{
 .hero-waves {
     display: block;
     width: 100%;
-    height: 60px;
+    height: 140px;
     position: relative;
   }
   
@@ -344,6 +354,62 @@ header .nav a:hover{
 
 
 
+/*************review-css*****************/
+
+.containerrev {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 450px;
+  width: 320px;
+  margin: 10px;
+  box-shadow: 0 3px 5px #000;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card .bg-image img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  clip-path: polygon(0 0, 100% 0%, 100% 70%, 45% 100%, 0 70%);
+}
+
+.card .pic img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 5px solid #222;
+  margin-top: -99px;
+  position: relative;
+}
+
+.card .info h3 {
+  color: var(--black);
+  font-size: 20px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.card .info span {
+  font-size: 15px;
+  color: yellow;
+}
+
+.card .info p {
+  font-size: 15px;
+  padding: 10px 20px;
+  color: #222;
+  
+}
+
+
+
+
 /*****************blog********************/
 
 
@@ -353,6 +419,7 @@ header .nav a:hover{
     box-shadow: var(--box-shadow);
     background:#fff;
     text-transform: capitalize;
+    
 }
 
 .blogs .box .image{
@@ -435,23 +502,30 @@ header .nav a:hover{
     padding: 0;
     margin: 0 0 15px 0;
   }
-  
-  #footer p {
-    font-size: 15;
-    font-style: italic;
-    padding: 0;
-    margin: 0 0 40px 0;
+
+  #footer h3:hover{
+    color: var(--black);
   }
   
-
+ 
+  
+  .footlink a{
+    margin: 50px;
+    color: white;
+  
+  }
   
   
   #footer .copyright {
-    margin: 0 0 5px 0;
+    margin: 0 0 0 0;
   }
   
   #footer .credits {
     font-size: 13px;
+  }
+
+  #footer a:hover{
+    color: rgb(47, 0, 255);
   }
   
 
@@ -534,7 +608,7 @@ header .nav a:hover{
   }
   
   .bod .mbox .info .icon a:hover{
-    color: violet;
+    color: var(--black);
   }
 
 
@@ -546,6 +620,7 @@ header .nav a:hover{
   margin-bottom: 50px;
   font-size: 20px;
   text-transform: capitalize;
+  
 
 }
 
@@ -565,12 +640,80 @@ header .nav a:hover{
 .quality p{
   color: white;
   text-align: center;
+  
 }
 
 
 
+/********************register/login*********************************/
+
+#sign-up{
+    
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: linear-gradient(#37d5d6,#36096d); ;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    width: 45%;
+     
+}
+
+#sign-up h1{
+   color: white;
+  
+}
+
+.sign-up-ip{
+   border-radius: 5px;
+   padding: 10px;
+   margin: 5px 5px;
+   width: 70%;
+   border: 1px solid var(--black);
+   outline: none;
+
+}
+
+.cancelbtn{
    
+   padding: 10px 20px;
+   border-radius: 10px;
    
+   background: rgb(238, 61, 61);
+   cursor: pointer;
+   color: white;
+   
+
+}
+
+.signupbtn{
+
+   padding: 10px 20px;
+   border-radius: 10px;
+   background: rgb(116, 248, 116);
+   cursor: pointer;
+   color: white;
+}
+
+.login{
+    padding-left: 50px;
+    background: linear-gradient(#3eadcf, #abe9cd);
+    height: 100vh;
+    
+    
+    
+}
+.login h1{
+  color: white;
+ font-weight: bold;
+
+
+
+
+
+
+  
+  
+
 
 /* media queries  */
 
@@ -609,3 +752,6 @@ header .nav a:hover{
     }
 
 }
+
+
+
