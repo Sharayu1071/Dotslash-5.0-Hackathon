@@ -37,36 +37,42 @@
 
 
 ## Landing page
-
-
+![](webpic/one.png)
 
 ## Main page after login
+![](webpic/two.png)
 
 
 ## about us section
+![](webpic/three.png)
 
 
 ## Login Page
+![](webpic/nine.png)
 
 
 ## Registration page
+![](webpic/eight.png)
 
 
 ## Students Section
+![](webpic/four.png)
 
+## Stats section
+![](webpic/ten.png)
 
-## mentors Section
-
-
-## Blog Section 
-
+## Mentors Section
+![](webpic/five.png)
 
 
 ## Review Section 
+![](webpic/six.png)
+
+## Blog Section
+![](webpic/seven.png)
 
 
 
-## Stats section
 
 
 
