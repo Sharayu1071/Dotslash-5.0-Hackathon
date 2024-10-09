@@ -3,14 +3,16 @@
 
 ## :sparkles: Team Name: 404_Found
 
+## 👩‍💻 Team Lead: Sharayu Banait
+
 ## :two_women_holding_hands: Project Name: TeamMates
+
+## :dart: Hosted Link: https://gray-rock-064c65600.1.azurestaticapps.net/
 
 # :question: Problem Statement
 Nowadays, lots of hackathons are going on and hackathons are the best way to improve and showcase student skills. But right now each and every student is busy doing something else like CP, DSA, Development, Open Source, etc. And it becomes very difficult for a student to find teammates for hackathons. 
 
-## Solution: TeamMates
-
-# :star2: Introduction
+# :star2: Solution: TeamMates
 TeamMates is a simple and easy to use web application where you can find teammates and mentors as well. Here you can select teammates and mentors according to your domain. You can check out their portfolio, Github, and all social links to know more about them. If you want to team up with them then you can contact them and make a team for the hackathon.
 
 # :memo: Modules
